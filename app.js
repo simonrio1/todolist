@@ -20,7 +20,7 @@ app.use("/", todolistRouter);
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://simonrio411:pUBvovCwQDQk3bra@cluster0.xf71iyl.mongodb.net/todolistDB?retryWrites=true&w=majority');
+  await mongoose.connect('mongodb+srv://simonrio411:<PASSWORD>@cluster0.xf71iyl.mongodb.net/todolistDB?retryWrites=true&w=majority');
 }
 
 
